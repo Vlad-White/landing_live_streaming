@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+%hover-black {
+  transition: all 0.7s;
+  &:hover {
+    color: v.$color_black;
+  }
+}
+
+%hover-light {
+  transition: all 0.5s;
+  &:hover {
+    color: v.$color_white;
+  }
+}
+
+%hover-black-icon {
+  transition: all 0.7s;
+  fill: v.$color_white;
+  &:hover {
+    fill: v.$color_black;
+  }
+}
+
+
